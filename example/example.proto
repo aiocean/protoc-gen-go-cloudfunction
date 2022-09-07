@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package example;
+
+option go_package = "protoc-gen-go-ascii/example";
+
+message Hello {
+  string name = 1;
+}
+
+message GetWallpaperRequest{
+  string name = 1;
+}
+
+message GetWallpaperResponse{
+  string name = 1;
+}
